@@ -1,0 +1,16 @@
+//check list shallow copy vs deep copy
+
+>>> l=[1,2,[4,5]]
+>>> r=l[:]
+>>> r
+[1, 2, [4, 5]]
+>>> r[2][1]=44
+>>> r[0]=11
+>>> r
+[11, 2, [4, 44]]
+>>> l
+[1, 2, [4, 44]]
+
+
+//import sys check it out
+//check python challenge website
